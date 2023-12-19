@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>BARCODE</title>
+  </head>
+  <style>
+
+  </style>
+  <body>
+    <div class="container body">
+      <h1>Hola toro</h1>
+      <img src="{{ url_for('video_feed') }}" width="640" height="480">
+      <p>Valor del código de barras: {{ barcode_value }}</p>
+    </body>
+    </div>
+  </body>
+</html>
